@@ -1,0 +1,16 @@
+# Core
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+
+# Quantum + optimization
+pennylane>=0.36
+jax>=0.4.28
+jaxlib>=0.4.28
+optax>=0.2.2
+
+# Dev/test
+pytest>=8.0
+
+# Optional (helpful)
+matplotlib>=3.8
