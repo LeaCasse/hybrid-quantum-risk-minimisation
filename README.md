@@ -1,4 +1,4 @@
-# Hybrid Quantum Risk Minimisation — Artifact-Ready Code
+# Hybrid Quantum Risk Minimisation
 
 This folder contains a **modular, testable** implementation of the pipeline described in
 **"Hybrid Quantum Risk Minimisation: A QRU–QAOA Pipeline for Spatial Flood Tail Risk Allocation"**
