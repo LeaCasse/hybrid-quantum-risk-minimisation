@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "Hybrid Quantum Risk Minimisation: A QRU–QAOA Pipeline for Spatial Flood Tail-Risk Allocation (Code)"
+type: software
+authors:
+  - family-names: "Cassé"
+    given-names: "Léa"
+date-released: "2026-02-21"
+license: "MIT"

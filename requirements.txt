@@ -14,3 +14,16 @@ pytest>=8.0
 
 # Optional (helpful)
 matplotlib>=3.8
+
+# Config
+pyyaml>=6.0
+
+# Optional (geodesic distance)
+geopy>=2.4
+
+# Optional (IBM QPU)
+qiskit>=1.0
+qiskit-ibm-runtime>=0.24
+
+# Optional (qBraid)
+# qbraid

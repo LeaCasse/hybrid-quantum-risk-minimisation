@@ -1,0 +1,7 @@
+# IBM Quantum Runtime QRU inference config
+run_name: qru_qpu_ibm_demo
+shots: 4096
+optimization_level: 3
+backend: least_busy  # or explicit backend name
+token_env: IBM_QUANTUM_TOKEN
+instance_env: IBM_QUANTUM_INSTANCE  # optional

@@ -1,0 +1,9 @@
+# Minimal QAOA reproduction config (simulator)
+run_name: paper_small7_k2_sim
+seed: 123
+qubo_artifacts_path: artifacts/qaoa_artifacts_small7_k2.npz
+shots: 10000
+device: default.qubit
+n_wires: 7
+k: 2
+p: 1

@@ -1,0 +1,16 @@
+# QRU training config matching ~72 parameters (example)
+run_name: qru_72params
+seed: 7
+history: 6
+features: [rainfall, river_level]
+layers: 2
+# With 2 layers and history=6, enc params: (layers, history, 3) = 36; var params: (layers, 2) = 4
+# Total raw params = 40; for exact 72 you may use layers=3 or add per-layer biases.
+# Keep this as an illustrative config; see docs/reproducibility.md for exact matching.
+learning_rate: 0.01
+epochs: 500
+patience: 50
+batch_size: 64
+scaler: minmax_pm1
+target: river_level
+horizon: 1

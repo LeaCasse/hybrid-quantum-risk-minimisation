@@ -1,0 +1,6 @@
+# qBraid -> IonQ (or other qBraid device) QAOA inference config
+run_name: qaoa_qbraid_demo
+device_id: ionq_simulator  # change to an actual QPU if available
+shots: 10000
+qaoa_artifacts_path: artifacts/qaoa_artifacts_small7_k2.npz
+api_key_env: QBRAID_API_KEY
